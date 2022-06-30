@@ -14,7 +14,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 class ProductController {
-   @RequestMapping("api/branch/show")
+   @RequestMapping("api/product/showall")
    List Show() {
        return (List)repository.findAll();
    }
