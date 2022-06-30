@@ -23,11 +23,3 @@ class Initialize {
     
     String cs = "jdbc:mysql://localhost/the_mad_coffee?user=james&password=bond";
 }
-
-@RestController
-class Sample {
-    @RequestMapping("/showsamples")
-    String hello() {
-        return "Hello World!!";
-    }
-}
