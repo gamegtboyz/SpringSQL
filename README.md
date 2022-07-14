@@ -6,36 +6,7 @@ This folder illustrates the connection of SQL and web services using Spring Fram
 This is the initial upload of this projects, so I need to berifly describe what I have done on this project.
 #1 Create the SQL database.
   I created this database using mySQL, the projects illustrated the coffeshop named 'the_mad_coffee' with various products and branches. Then create user named james and give the super-user authorization to him.
-  The illuatration of tables is as the followings;
-  TABLE: product
-  +------+-----------+------+-------+
-  | code | name      | size | price |
-  +------+-----------+------+-------+
-  |    1 | Espresso  | S    |    40 |
-  |    2 | Americano | S    |    50 |
-  |    3 | Mocha     | S    |    60 |
-  |    4 | Latte     | S    |    50 |
-  |    5 | Espresso  | M    |    50 |
-  |    6 | Americano | M    |    60 |
-  |    7 | Mocha     | M    |    70 |
-  |    8 | Latte     | M    |    60 |
-  |    9 | Espresso  | L    |    60 |
-  |   10 | Americano | L    |    70 |
-  |   11 | Mocha     | L    |    80 |
-  |   12 | Latte     | L    |    70 |
-  +------+-----------+------+-------+
-  
-  TABLE: branch
-  +------+----------+------+
-  | code | name     | area |
-  +------+----------+------+
-  |    1 | New York |  120 |
-  |    2 | London   |   80 |
-  |    3 | Paris    |   90 |
-  |    4 | Tokyo    |   75 |
-  |    5 | Sydney   |  105 |
-  +------+----------+------+ 
-  
+
 #2 Build the Projects using Spring Boot
   Create maven project. Currently, I use 3 dependencies as follows;  spring-boot-starter-web (released version from org.springframework.boot), 
                                                                           spring-boot-starter-java-jdbc (released version from org.springframework.boot),
